@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d dist"
+    "build": "babel src -d dist",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/irlen3/ajs18-2workspace-babel.git"
+    "url": "git+https://github.com/irlen3/ajs18-3workspace-eslint.git"
   },
   "keywords": [
     "game"
@@ -17,13 +18,16 @@
   "author": "Iryna Koval",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/irlen3/ajs18-2workspace-babel/issues"
+    "url": "https://github.com/irlen3/ajs18-3workspace-eslint/issues"
   },
-  "homepage": "https://github.com/irlen3/ajs18-2workspace-babel#readme",
+  "homepage": "https://github.com/irlen3/ajs18-3workspace-eslint#readme",
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.6"
+    "@babel/preset-env": "^7.15.6",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
   },
   "dependencies": {
     "core-js": "^3.18.1"
