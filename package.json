@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/irlen3/ajs18-1workspace-npm.git"
+    "url": "git+https://github.com/irlen3/ajs18-2workspace-babel.git"
   },
   "keywords": [
     "game"
@@ -17,9 +17,9 @@
   "author": "Iryna Koval",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/irlen3/ajs18-1workspace-npm/issues"
+    "url": "https://github.com/irlen3/ajs18-2workspace-babel/issues"
   },
-  "homepage": "https://github.com/irlen3/ajs18-1workspace-npm#readme",
+  "homepage": "https://github.com/irlen3/ajs18-2workspace-babel#readme",
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.5",
